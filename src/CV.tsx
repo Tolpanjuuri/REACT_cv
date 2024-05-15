@@ -2,11 +2,11 @@ import {Box} from '@mui/material';
 import Button from '@mui/material/Button';
 import AttachFileIcon from '@mui/icons-material/AttachFile';
 import React from 'react';
-
+import cvImage from "./assets/CVimage.png";
 
 function CV() {
     const handleDownload = () => {
-        fetch('/public/CV2024IN_E.pdf')
+        fetch('/assets/CV2024IN_E.pdf')
           .then((response) => response.blob())
           .then((blob) => {
             const url = window.URL.createObjectURL(new Blob([blob]));
@@ -45,7 +45,7 @@ function CV() {
                   <h1 >CV</h1>
                 </div>
                 <div style={{ textAlign:"center"}}>
-                <img src="./assets/CVimage.png" width="240rem"/>
+                <img src={cvImage} width="240rem"/>
                 </div>
                 <Button onClick={handleDownload}style={{width: '17em', maxWidth:'50vw', height: '5em', marginTop:'auto' }} variant="contained"><p className='textCenter'>Download CV</p></Button>
                 </div>
