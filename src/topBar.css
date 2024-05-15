@@ -1,0 +1,26 @@
+.selfieDiv{
+  margin: 0 auto;
+  margin-top: 2em;
+  justify-content: "center";
+  display: "flex";
+  text-align: center;
+}
+.selfie {
+  margin: 0 auto;
+  margin-top: 0;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.selfie:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.selfie.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+.name{
+  font-size: 3vw;
+}
+.developer{
+  margin-top: -1em;
+  font-size: 1.5vw;
+}
