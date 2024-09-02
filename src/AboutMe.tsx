@@ -22,8 +22,10 @@ function AboutMe() {
           </div>
         </div>  
         <div className='text'>
-          <p>Hello, I'm a just graduated software developet from Gradia. I'm apart of the first year of software developers graduating from vocational school, and I want to prove that a bachelors degree is not a barrier to having strong skills. My studies have come to an end, and my next goal is employment.</p>
-          <p> I've enjoyed software development since elementary school, where I started taking coding courses simply for fun. This interest stayed through middle school and continued into vocational school, where it became clear to me that this is the field of expertise I want to pursue and what I enjoy. With three years of vocational education behind me and some courses done from the Jamk University of Applied Sciences, securing a job at this state of my career would be a dream.</p>
+          <p>Hello, im a student from Jamk University of Applied Sciences. I already have done studies in this field from Gradia and got some great work experiences from all the on the job learnings there.</p>
+          <p> I'm a social guy and love to be with friends. On my free time i love to mess around with stuff, like computers, mopeds and everything intresting i can get my hands on. I also have cats.</p>
+          <p> I would love to get into working life as soon as possible, because i feel like learning on the job is easier. I also like working life a lot more then school. I know it's a trend with us young people. And no it's not all about the money.</p>
+          <p> In coding i've started to like doing frontend a lot more. The desing side is not my strong point, as you maybe see. Maybe because it's the thing i have more experience in. Backend i might have to get a bit more used to but it's the thing i've heard about in school more.</p>
           <p> If you're looking for a dedicated employee, please don't hesitate to get in touch!</p>
         </div>
 
